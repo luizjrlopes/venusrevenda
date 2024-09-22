@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   padding: 2rem;
-  background-color: #f9f9f9;
+  background-color: ${(props) => props.theme.colors.sections.productHighlights};
   text-align: center;
 `;
 

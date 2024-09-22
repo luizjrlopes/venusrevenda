@@ -55,7 +55,7 @@ function Testimonials() {
           ? 0
           : prevContainer + 1
       );
-    }, 50000); // Muda o container a cada 10 segundos
+    }, 20000); // Muda o container
 
     return () => clearInterval(interval);
   }, [testimonialContainers.length]);

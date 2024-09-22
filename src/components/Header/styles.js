@@ -5,24 +5,21 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #007bff;
-  color: white;
-
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
+  background-color: ${(props) => props.theme.colors.header.background};
+  color: ${(props) => props.theme.colors.header.text};
 
   @media (max-width: 768px) {
     padding: 1rem;
   }
 `;
+
 export const ImageLogo = styled.img`
   width: 90px;
   height: 70px;
 
   @media (max-width: 768px) {
-    padding: 1rem;
+    width: 90px;
+    height: 80px;
   }
 `;
 
@@ -37,13 +34,13 @@ export const Nav = styled.nav`
       margin-left: 2rem;
 
       a {
-        color: white;
+        color: ${(props) => props.theme.colors.header.text};
         text-decoration: none;
         font-size: 1rem;
         transition: color 0.3s ease;
 
         &:hover {
-          color: #ffcc00;
+          color: ${(props) => props.theme.colors.header.accent};
         }
       }
     }
@@ -55,7 +52,7 @@ export const Nav = styled.nav`
     right: ${(props) => (props.isOpen ? "0" : "-250px")};
     height: 100%;
     width: 250px;
-    background-color: #007bff;
+    background-color: ${(props) => props.theme.colors.header.background};
     transition: right 0.3s ease;
     z-index: 1000;
     display: flex;
@@ -77,7 +74,7 @@ export const MenuButton = styled.button`
   display: none;
   background: none;
   border: none;
-  color: white;
+  color: ${(props) => props.theme.colors.header.text};
   font-size: 1.5rem;
   cursor: pointer;
 

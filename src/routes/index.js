@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ThemeProvider } from "styled-components";
+import theme from "./../assets/theme";
 import Home from "./../views/Home";
 import Politica from "./../views/Politica";
 import PoliticaDeDevolucao from "./../views/PoliticaDeDevolucao";
@@ -15,24 +17,26 @@ class Rotas extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/venusrevenda" element={<Home />} />
-          <Route path="/venusrevenda/Politica" element={<Politica />} />
-          <Route
-            path="/venusrevenda/PoliticaDeDevolucao"
-            element={<PoliticaDeDevolucao />}
-          />
-          <Route
-            path="/venusrevenda/TermosDeServico"
-            element={<TermosDeServico />}
-          />
-          <Route path="/venusrevenda/FAQ" element={<FAQ />} />
-          <Route path="/venusrevenda/SobreNos" element={<SobreNos />} />
-          <Route path="/venusrevenda/Contato" element={<Contato />} />
-          <Route path="/venusrevenda/Loja" element={<Loja />} />
-        </Routes>
-        <Footer />
+        <ThemeProvider theme={theme}>
+          <Header />
+          <Routes>
+            <Route path="/venusrevenda" element={<Home />} />
+            <Route path="/venusrevenda/Politica" element={<Politica />} />
+            <Route
+              path="/venusrevenda/PoliticaDeDevolucao"
+              element={<PoliticaDeDevolucao />}
+            />
+            <Route
+              path="/venusrevenda/TermosDeServico"
+              element={<TermosDeServico />}
+            />
+            <Route path="/venusrevenda/FAQ" element={<FAQ />} />
+            <Route path="/venusrevenda/SobreNos" element={<SobreNos />} />
+            <Route path="/venusrevenda/Contato" element={<Contato />} />
+            <Route path="/venusrevenda/Loja" element={<Loja />} />
+          </Routes>
+          <Footer />
+        </ThemeProvider>
       </BrowserRouter>
     );
   }
