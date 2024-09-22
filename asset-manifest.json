@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/venusrevenda/static/css/main.8358f47d.css",
+    "main.js": "/venusrevenda/static/js/main.737956b9.js",
+    "static/media/dpHarmonic3.png": "/venusrevenda/static/media/dpHarmonic3.3fb68df118a4546858d6.png",
+    "static/media/dpHarmonic1.png": "/venusrevenda/static/media/dpHarmonic1.cb13a40ced36ee9c40d1.png",
+    "static/media/dpHarmonic4.png": "/venusrevenda/static/media/dpHarmonic4.38afdf1ab7cb285ff3ef.png",
+    "static/media/dpHarmonic2.png": "/venusrevenda/static/media/dpHarmonic2.94151cdd02d5a3191b4f.png",
+    "static/media/297.png": "/venusrevenda/static/media/297.bb68507ea51f3bb10e3b.png",
+    "static/media/dpRetinol4.png": "/venusrevenda/static/media/dpRetinol4.a6e0053290d45bbfb964.png",
+    "static/media/dpRetinol3.png": "/venusrevenda/static/media/dpRetinol3.2ce40bdf4c521065abfc.png",
+    "static/media/dpRetinol1.png": "/venusrevenda/static/media/dpRetinol1.5f861c867b096849bc4f.png",
+    "static/media/dpRetinol2.png": "/venusrevenda/static/media/dpRetinol2.d11444c0b87b978523f2.png",
+    "static/media/397.png": "/venusrevenda/static/media/397.68a9fd03442a296e63de.png",
+    "static/media/197.png": "/venusrevenda/static/media/197.e3f3426fa3e2f2fd4d1a.png",
+    "static/media/retinol.png": "/venusrevenda/static/media/retinol.1c4783caedc79cf8419a.png",
+    "static/media/harmonic.png": "/venusrevenda/static/media/harmonic.75f4e44df0dd5cbd6574.png",
+    "static/media/logo.png": "/venusrevenda/static/media/logo.d897e3ca260a7b966d3a.png",
+    "index.html": "/venusrevenda/index.html",
+    "main.8358f47d.css.map": "/venusrevenda/static/css/main.8358f47d.css.map",
+    "main.737956b9.js.map": "/venusrevenda/static/js/main.737956b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8358f47d.css",
+    "static/js/main.737956b9.js"
+  ]
+}
