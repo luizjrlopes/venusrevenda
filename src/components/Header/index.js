@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { HeaderContainer, Nav, MenuButton, Overlay, ImageLogo } from "./styles";
 import Logo from "./../../assets/logo.png";
+
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -10,26 +11,30 @@ function Header() {
 
   return (
     <HeaderContainer>
-      <ImageLogo src={Logo}></ImageLogo>
+      <ImageLogo src={Logo} alt="Logo Venus Revenda" />
 
       <MenuButton onClick={toggleMenu}>{isOpen ? "✖" : "☰"}</MenuButton>
       <Nav isOpen={isOpen}>
         <ul>
           <li>
-            <a href="/venusrevenda">Início</a>
+            <a href="#/">Início</a> {/* Atualizado para usar HashRouter */}
           </li>
           <li>
-            <a href="/venusrevenda/SobreNos">Sobre Nós</a>
+            <a href="#/SobreNos">Sobre Nós</a>{" "}
+            {/* Atualizado para usar HashRouter */}
           </li>
           <li>
-            <a href="/venusrevenda/Loja">Produtos</a>
+            <a href="#/Loja">Produtos</a>{" "}
+            {/* Atualizado para usar HashRouter */}
           </li>
-          {/*
+          {/* 
           <li>
             <a href="#">Blog</a>
-          </li>*/}
+          </li>
+          */}
           <li>
-            <a href="/venusrevenda/Contato">Contato</a>
+            <a href="#/Contato">Contato</a>{" "}
+            {/* Atualizado para usar HashRouter */}
           </li>
 
           <li>

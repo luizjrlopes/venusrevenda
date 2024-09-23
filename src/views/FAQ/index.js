@@ -82,9 +82,8 @@ const Faq = () => {
         <Question>6. Como faço para devolver um produto?</Question>
         <Answer>
           Se você deseja devolver um produto, por favor, consulte nossa{" "}
-          <a href="/venusrevenda/PoliticaDeDevolucao">Política de Devolução</a>{" "}
-          para obter mais informações sobre as condições e o procedimento de
-          devolução.
+          <a href="#/PoliticaDeDevolucao">Política de Devolução</a> para obter
+          mais informações sobre as condições e o procedimento de devolução.
         </Answer>
       </Section>
 
@@ -135,7 +134,7 @@ const Faq = () => {
           informações fornecidas em nosso site são protegidas por medidas de
           segurança avançadas e são utilizadas apenas para processar e enviar
           seu pedido, conforme descrito em nossa{" "}
-          <a href="/venusrevenda/Politica">Política de Privacidade</a>.
+          <a href="#/Politica">Política de Privacidade</a>.
         </Answer>
       </Section>
     </Container>

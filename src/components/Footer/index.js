@@ -13,10 +13,10 @@ function Footer() {
     <FooterContainer>
       <FooterContent>
         <FooterLinks>
-          <a href="/venusrevenda/Politica">Política de Privacidade</a>
-          <a href="/venusrevenda/TermosDeServico">Termos de Serviço</a>
-          <a href="/venusrevenda/PoliticaDeDevolucao">Política de Devolução</a>
-          <a href="/venusrevenda/FAQ">FAQ</a>
+          <a href="#/Politica">Política de Privacidade</a>
+          <a href="#/TermosDeServico">Termos de Serviço</a>
+          <a href="#/PoliticaDeDevolucao">Política de Devolução</a>
+          <a href="#/FAQ">FAQ</a>
         </FooterLinks>
         <ContactInfo>
           <p>Email: contato@venusrevenda.com</p>

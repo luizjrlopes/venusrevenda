@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom"; // Alterado para HashRouter
 import { ThemeProvider } from "styled-components";
 import theme from "./../assets/theme";
 import Home from "./../views/Home";
@@ -16,28 +16,27 @@ import Footer from "./../components/Footer";
 class Rotas extends React.Component {
   render() {
     return (
-      <BrowserRouter>
-        <ThemeProvider theme={theme}>
+      <ThemeProvider theme={theme}>
+        <HashRouter>
+          {" "}
+          {/* Substituído por HashRouter */}
           <Header />
           <Routes>
-            <Route path="/venusrevenda" element={<Home />} />
-            <Route path="/venusrevenda/Politica" element={<Politica />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/Politica" element={<Politica />} />
             <Route
-              path="/venusrevenda/PoliticaDeDevolucao"
+              path="/PoliticaDeDevolucao"
               element={<PoliticaDeDevolucao />}
             />
-            <Route
-              path="/venusrevenda/TermosDeServico"
-              element={<TermosDeServico />}
-            />
-            <Route path="/venusrevenda/FAQ" element={<FAQ />} />
-            <Route path="/venusrevenda/SobreNos" element={<SobreNos />} />
-            <Route path="/venusrevenda/Contato" element={<Contato />} />
-            <Route path="/venusrevenda/Loja" element={<Loja />} />
+            <Route path="/TermosDeServico" element={<TermosDeServico />} />
+            <Route path="/FAQ" element={<FAQ />} />
+            <Route path="/SobreNos" element={<SobreNos />} />
+            <Route path="/Contato" element={<Contato />} />
+            <Route path="/Loja" element={<Loja />} />
           </Routes>
           <Footer />
-        </ThemeProvider>
-      </BrowserRouter>
+        </HashRouter>
+      </ThemeProvider>
     );
   }
 }

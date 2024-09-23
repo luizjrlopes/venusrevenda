@@ -82,9 +82,7 @@ function Benefits() {
               <S.BenefitDescription>
                 <li>
                   Acesse a Página{" "}
-                  <a href="/venusrevenda/PoliticaDeDevolucao">
-                    Política de Devolução
-                  </a>
+                  <a href="#/PoliticaDeDevolucao">Política de Devolução</a>
                 </li>
                 .
               </S.BenefitDescription>
