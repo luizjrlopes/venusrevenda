@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/venusrevenda/static/css/main.8358f47d.css",
-    "main.js": "/venusrevenda/static/js/main.b30ed068.js",
+    "main.js": "/venusrevenda/static/js/main.582d1c11.js",
     "static/media/dpHarmonic3.png": "/venusrevenda/static/media/dpHarmonic3.3fb68df118a4546858d6.png",
     "static/media/dpHarmonic1.png": "/venusrevenda/static/media/dpHarmonic1.cb13a40ced36ee9c40d1.png",
     "static/media/dpHarmonic4.png": "/venusrevenda/static/media/dpHarmonic4.38afdf1ab7cb285ff3ef.png",
@@ -19,10 +19,10 @@
     "static/media/logoC.png": "/venusrevenda/static/media/logoC.e3b5b06705ee163edeb3.png",
     "index.html": "/venusrevenda/index.html",
     "main.8358f47d.css.map": "/venusrevenda/static/css/main.8358f47d.css.map",
-    "main.b30ed068.js.map": "/venusrevenda/static/js/main.b30ed068.js.map"
+    "main.582d1c11.js.map": "/venusrevenda/static/js/main.582d1c11.js.map"
   },
   "entrypoints": [
     "static/css/main.8358f47d.css",
-    "static/js/main.b30ed068.js"
+    "static/js/main.582d1c11.js"
   ]
 }
